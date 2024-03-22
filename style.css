@@ -1,0 +1,44 @@
+
+body {
+  background-color: #D5E1EF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.625rem;
+  height: 473px;
+  width: 320px;
+  padding-top: 1px;
+}
+
+.inner-card {
+  background-image: url('./images/Ovalbackground.png');
+  height: 288px;
+  width: 288px;
+  margin: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+h1 {
+  color: #1f314f;
+  max-width: 288px;
+  text-align: center;
+  margin: 16px;
+  font-size: 22px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+}
+
+p {
+  color: gray;
+  margin: 16px;
+  text-align: center;
+  font-size: 16px;
+  text-shadow: gray 1px 1px 1px;
+}
